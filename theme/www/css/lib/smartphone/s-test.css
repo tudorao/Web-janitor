@@ -1,23 +1,23 @@
-* {font-family: "OpenSans", Verdana, Arial, sans-serif; color: #f11313;
-	-webkit-text-size-adjust: none;
-	-webkit-font-smoothing: antialiased;
+.scene.test{
+	background-color: rgb(156, 226, 43);
+ margin: 0; overflow-y: scroll; overflow-x: hidden;
 }
 
 html {min-height: 100%;}
-body {background: #faf608; margin: 0; overflow-y: scroll; overflow-x: hidden;}
+
 
 
 /* BASE */
-h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt {padding: 0; margin: 0;}
-h1, h2, h3, h4, h5, h6, p, li, dd, dt, span, a {line-height: 1em; font-weight: normal;}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt {padding: 10; margin: 10;}
+h1, h2, h3, h4, h5, h6, p, li, dd, dt, span, a {line-height: 1.5em; font-weight: normal;}
 
 ul {list-style: none;}
 a {text-decoration: none; cursor: pointer;}
 
 img {border: 0; display: block;}
-form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+form, fieldset, label, input, select, textarea {padding: 10; margin: 0; font-weight: normal;}
 fieldset {border: none;}
-input, select, textarea {font-size: 14px; color: #1230db;}
+input, select, textarea {font-size: 14px; color: #12db9f;}
 input, textarea {outline: none;}
 
 

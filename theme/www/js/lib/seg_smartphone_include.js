@@ -7,4 +7,4 @@ document.write('<script type="text/javascript" src="/js/lib/smartphone/i-page.js
 document.write('<script type="text/javascript" src="/js/lib/smartphone/i-front.js"></script>');
 document.write('<script type="text/javascript" src="/js/lib/smartphone/i-demo.js"></script>');
 document.write('<script type="text/javascript" src="/js/lib/smartphone/i-login.js"></script>');
-
+document.write('<script type="text/javascript" src="/js/lib/smartphone/i-web.js"></script>');

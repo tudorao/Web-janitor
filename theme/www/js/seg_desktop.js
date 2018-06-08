@@ -4560,10 +4560,12 @@ if(u.ga_account) {
 Util.Objects["page"] = new function() {
 	this.init = function(page) {
 		page.hN = u.qs("#header");
+		page.hN.service = u.qs("ul.servicenavigation", page.hN);
 		page.cN = u.qs("#content", page);
 		page.nN = u.qs("#navigation", page);
 		page.nN = u.ie(page.hN, page.nN);
 		page.fN = u.qs("#footer");
+		page.fN.service = u.qs("ul.servicenavigation", page.fN);
 		page.resized = function() {
 			if(page.cN && page.cN.scene && typeof(page.cN.scene.resized) == "function") {
 				page.cN.scene.resized();
@@ -4589,6 +4591,14 @@ Util.Objects["page"] = new function() {
 				var logo = u.ae(this.hN, "a", {"class":"logo", "href":frontpage_link.href, "html":frontpage_link.innerHTML});
 				u.ce(logo, {"type":"link"});
 			}
+			if(this.fN.service) {
+				var node, i;
+				var nodes = u.qsa("li", this.fN.service);
+				for(i = 0; node = nodes[i]; i++) {
+					u.ie(this.hN.service, node);
+				}
+				this.fN.removeChild(this.fN.service);
+			}
 		}
 		page.ready();
 	}
@@ -4604,6 +4614,7 @@ Util.Objects["front"] = new function() {
 		scene.scrolled = function() {
 		}
 		scene.ready = function() {
+console.log("ready met")
 		}
 		scene.ready();
 	}
@@ -4634,6 +4645,21 @@ Util.Objects["login"] = new function() {
 		scene.ready = function() {
 			this._form = u.qs("form", this);
 			u.f.init(this._form);
+		}
+		scene.ready();
+	}
+}
+
+
+/*i-web.js*/
+Util.Objects["web"] = new function() {
+	this.init = function(scene) {
+		scene.resized = function() {
+		}
+		scene.scrolled = function() {
+		}
+		scene.ready = function() {
+		console.log("web site Desk")
 		}
 		scene.ready();
 	}

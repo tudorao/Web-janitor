@@ -1,6 +1,6 @@
-<div class="scene test i:web" itemscope itemtype="http://schema.org/NewsArticle">
+<div class="scene front i:front" itemscope itemtype="http://schema.org/NewsArticle">
 
-	<h1 itemprop="headline">Test page test php controler and test controler</h1>
+	<h1 itemprop="headline">Test page2 and test2 controler</h1>
 
 	<ul class="info">
 		<li class="published_at" itemprop="datePublished" content="2016-09-07">2016-09-07, 14:58</li>

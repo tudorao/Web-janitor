@@ -4585,3 +4585,18 @@ Util.Objects["login"] = new function() {
 	}
 }
 
+
+/*i-web.js*/
+Util.Objects["web"] = new function() {
+	this.init = function(scene) {
+		scene.resized = function() {
+		}
+		scene.scrolled = function() {
+		}
+		scene.ready = function() {
+		console.log("web site smart")
+		}
+		scene.ready();
+	}
+}
+

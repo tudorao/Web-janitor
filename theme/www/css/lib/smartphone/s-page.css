@@ -4,11 +4,11 @@
 }
 
 html {min-height: 100%;}
-body {background: #ffffff; margin: 0; overflow-y: scroll; overflow-x: hidden;}
+body {background: #f206fa; margin: 0; overflow-y: scroll; overflow-x: hidden;}
 
 
 /* BASE */
-h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {padding: 10; margin: 10;}
 h1, h2, h3, h4, h5, h6, p, li, dd, dt, span, a {line-height: 1em; font-weight: normal;}
 
 ul {list-style: none;}
@@ -21,7 +21,7 @@ a {text-decoration: none; cursor: pointer;
 img {border: 0; display: block;}
 form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
 fieldset {border: none;}
-input, select, textarea {font-size: 14px; color: #333333;}
+input, select, textarea {font-size: 14px; color: #880505;}
 input, textarea {outline: none;}
 
 
@@ -62,8 +62,8 @@ dd {display: block; vertical-align: top; font-size: 13px; line-height: 1.25em;}
 
 #page {position: relative;}
 
-.terms_notification {opacity: 0; padding: 15px 20px 20px; background: #888888;}
-.terms_notification h3 {padding: 0 0 15px; font-size: 13px; color: #ffffff;}
+.terms_notification {opacity: 0; padding: 15px 20px 20px; background: #5304d3;}
+.terms_notification h3 {padding: 0 0 15px; font-size: 13px; color: #09ddc1;}
 .terms_notification .accept,
 .terms_notification .details {padding: 0; font-size: 16px; display: inline-block; vertical-align: bottom; padding: 0; color: #ffffff;}
 .terms_notification .details {float: right;}
@@ -79,4 +79,4 @@ dd {display: block; vertical-align: top; font-size: 13px; line-height: 1.25em;}
 	background: #333333; color: #ffffff;
 }
 #page #notifications div {padding: 10px 20px; color: #ffffff;}
-#page #notifications .error {background: #df0000;}
+#page #notifications .error {background: #a9e408;}

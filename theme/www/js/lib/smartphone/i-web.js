@@ -1,4 +1,4 @@
-Util.Objects["front"] = new function() {
+Util.Objects["web"] = new function() {
 	this.init = function(scene) {
 
 		scene.resized = function() {
@@ -10,8 +10,8 @@ Util.Objects["front"] = new function() {
 		}
 
 		scene.ready = function() {
+		console.log("web site smart")
 //			u.bug("scene.ready:" + u.nodeId(this));
-console.log("ready met")
 		}
 
 		// scene is ready
